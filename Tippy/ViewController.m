@@ -48,26 +48,7 @@
 
 }
 
-- (IBAction)onEditingBegin:(id)sender {
-    
-    [UIView animateWithDuration:(0.2) animations:^{    self.billField.frame = CGRectMake(self.billField.frame.origin.x, self.billField.frame.origin.y + 30, self.billField.frame.size.width, self.billField.frame.size.height);
-        
-        self.tipLabel.alpha = 0;
-    }];
 
-}
-
-- (IBAction)onEditingEnd:(id)sender {
-    CGRect newFrame = self.billField.frame;
-    newFrame.origin.y -= 30;
-    
-    [UIView animateWithDuration:(0.2) animations:^{
-        self.billField.frame = newFrame;
-        
-        self.tipLabel.alpha = 1;
-    }];
-
-}
 
 
 
