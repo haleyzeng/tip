@@ -35,8 +35,6 @@ Improved:
 
 <img src='https://i.imgur.com/CArt2FF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-https://imgur.com/CArt2FF
-
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
